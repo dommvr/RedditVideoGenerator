@@ -1,0 +1,6 @@
+gTTS==2.2.4
+moviepy==1.0.3
+mutagen==1.46.0
+nltk==3.7
+praw==7.6.0
+python_magic==0.4.27
