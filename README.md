@@ -14,7 +14,7 @@ self.reddit = praw.Reddit(client_id='client_id',
 ```
 
  - Add your background videos to `Background_videos`
- - If you want to change font, font size or font color just edit this parameters. You will find theme in `create_text()` and `create_text2()` functions
+ - If you want to change font, font size or font color just edit this parameters. You will find theme in `create_text()` and `create_text2()` functions. TextClip documentation: https://moviepy-tburrows13.readthedocs.io/en/improve-docs/ref/VideoClip/TextClip.html
  ``` 
  self.sentence = TextClip(sentence, font="Arial-Black", fontsize=35, stroke_width=2.5, color="white", stroke_color="black", method="caption", size=background_video.size)
  ```
